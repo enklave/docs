@@ -1,0 +1,2 @@
+! Remove Virtual Voice crap from Audible.
+www.audible.com##li.bc-list-item:has-text(/Virtual Voice/i)
