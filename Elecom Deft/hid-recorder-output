@@ -1,0 +1,196 @@
+jerggs@fedora:~$ hid-recorder
+Available devices:
+/dev/hidraw0:   ELECOM ELECOM TrackBall Mouse
+/dev/hidraw1:   HP HP E34m G4 USB Audio
+/dev/hidraw2:   Compx 2.4G Receiver
+/dev/hidraw3:   Compx 2.4G Receiver
+/dev/hidraw4:   CHICONY HP Basic USB Keyboard
+/dev/hidraw5:   GN Netcom A/S Jabra EVOLVE LINK MS
+Select the device event number [0-5]: 0
+# ELECOM ELECOM TrackBall Mouse
+# 0x05, 0x01,                    // Usage Page (Generic Desktop)        0
+# 0x09, 0x02,                    // Usage (Mouse)                       2
+# 0xa1, 0x01,                    // Collection (Application)            4
+# 0x09, 0x01,                    //  Usage (Pointer)                    6
+# 0xa1, 0x00,                    //  Collection (Physical)              8
+# 0x85, 0x01,                    //   Report ID (1)                     10
+# 0x05, 0x09,                    //   Usage Page (Button)               12
+# 0x19, 0x01,                    //   Usage Minimum (1)                 14
+# 0x29, 0x08,                    //   Usage Maximum (8)                 16
+# 0x15, 0x00,                    //   Logical Minimum (0)               18
+# 0x25, 0x01,                    //   Logical Maximum (1)               20
+# 0x95, 0x08,                    //   Report Count (8)                  22
+# 0x75, 0x01,                    //   Report Size (1)                   24
+# 0x81, 0x02,                    //   Input (Data,Var,Abs)              26
+# 0x95, 0x01,                    //   Report Count (1)                  28
+# 0x75, 0x00,                    //   Report Size (0)                   30
+# 0x81, 0x01,                    //   Input (Cnst,Arr,Abs)              32
+# 0x05, 0x01,                    //   Usage Page (Generic Desktop)      34
+# 0x09, 0x30,                    //   Usage (X)                         36
+# 0x09, 0x31,                    //   Usage (Y)                         38
+# 0x16, 0x00, 0x80,              //   Logical Minimum (-32768)          40
+# 0x26, 0xff, 0x7f,              //   Logical Maximum (32767)           43
+# 0x75, 0x10,                    //   Report Size (16)                  46
+# 0x95, 0x02,                    //   Report Count (2)                  48
+# 0x81, 0x06,                    //   Input (Data,Var,Rel)              50
+# 0xc0,                          //  End Collection                     52
+# 0xa1, 0x00,                    //  Collection (Physical)              53
+# 0x05, 0x01,                    //   Usage Page (Generic Desktop)      55
+# 0x09, 0x38,                    //   Usage (Wheel)                     57
+# 0x15, 0x81,                    //   Logical Minimum (-127)            59
+# 0x25, 0x7f,                    //   Logical Maximum (127)             61
+# 0x75, 0x08,                    //   Report Size (8)                   63
+# 0x95, 0x01,                    //   Report Count (1)                  65
+# 0x81, 0x06,                    //   Input (Data,Var,Rel)              67
+# 0xc0,                          //  End Collection                     69
+# 0xa1, 0x00,                    //  Collection (Physical)              70
+# 0x05, 0x0c,                    //   Usage Page (Consumer Devices)     72
+# 0x0a, 0x38, 0x02,              //   Usage (AC Pan)                    74
+# 0x95, 0x01,                    //   Report Count (1)                  77
+# 0x75, 0x08,                    //   Report Size (8)                   79
+# 0x15, 0x81,                    //   Logical Minimum (-127)            81
+# 0x25, 0x7f,                    //   Logical Maximum (127)             83
+# 0x81, 0x06,                    //   Input (Data,Var,Rel)              85
+# 0xc0,                          //  End Collection                     87
+# 0xc0,                          // End Collection                      88
+# 0x06, 0x01, 0xff,              // Usage Page (Vendor Usage Page 0xff01) 89
+# 0x09, 0x00,                    // Usage (Vendor Usage 0x00)           92
+# 0xa1, 0x01,                    // Collection (Application)            94
+# 0x85, 0x02,                    //  Report ID (2)                      96
+# 0x09, 0x00,                    //  Usage (Vendor Usage 0x00)          98
+# 0x15, 0x00,                    //  Logical Minimum (0)                100
+# 0x26, 0xff, 0x00,              //  Logical Maximum (255)              102
+# 0x75, 0x08,                    //  Report Size (8)                    105
+# 0x95, 0x07,                    //  Report Count (7)                   107
+# 0x81, 0x02,                    //  Input (Data,Var,Abs)               109
+# 0xc0,                          // End Collection                      111
+# 0x05, 0x0c,                    // Usage Page (Consumer Devices)       112
+# 0x09, 0x01,                    // Usage (Consumer Control)            114
+# 0xa1, 0x01,                    // Collection (Application)            116
+# 0x85, 0x05,                    //  Report ID (5)                      118
+# 0x15, 0x00,                    //  Logical Minimum (0)                120
+# 0x26, 0x3c, 0x02,              //  Logical Maximum (572)              122
+# 0x19, 0x00,                    //  Usage Minimum (0)                  125
+# 0x2a, 0x3c, 0x02,              //  Usage Maximum (572)                127
+# 0x75, 0x10,                    //  Report Size (16)                   130
+# 0x95, 0x01,                    //  Report Count (1)                   132
+# 0x81, 0x00,                    //  Input (Data,Arr,Abs)               134
+# 0xc0,                          // End Collection                      136
+# 0x05, 0x01,                    // Usage Page (Generic Desktop)        137
+# 0x09, 0x80,                    // Usage (System Control)              139
+# 0xa1, 0x01,                    // Collection (Application)            141
+# 0x85, 0x03,                    //  Report ID (3)                      143
+# 0x19, 0x81,                    //  Usage Minimum (129)                145
+# 0x29, 0x83,                    //  Usage Maximum (131)                147
+# 0x15, 0x00,                    //  Logical Minimum (0)                149
+# 0x25, 0x01,                    //  Logical Maximum (1)                151
+# 0x95, 0x03,                    //  Report Count (3)                   153
+# 0x75, 0x01,                    //  Report Size (1)                    155
+# 0x81, 0x02,                    //  Input (Data,Var,Abs)               157
+# 0x95, 0x01,                    //  Report Count (1)                   159
+# 0x75, 0x05,                    //  Report Size (5)                    161
+# 0x81, 0x01,                    //  Input (Cnst,Arr,Abs)               163
+# 0xc0,                          // End Collection                      165
+# 0x06, 0xbc, 0xff,              // Usage Page (Vendor Usage Page 0xffbc) 166
+# 0x09, 0x88,                    // Usage (Vendor Usage 0x88)           169
+# 0xa1, 0x01,                    // Collection (Application)            171
+# 0x85, 0x04,                    //  Report ID (4)                      173
+# 0x95, 0x01,                    //  Report Count (1)                   175
+# 0x75, 0x08,                    //  Report Size (8)                    177
+# 0x15, 0x00,                    //  Logical Minimum (0)                179
+# 0x26, 0xff, 0x00,              //  Logical Maximum (255)              181
+# 0x19, 0x00,                    //  Usage Minimum (0)                  184
+# 0x2a, 0xff, 0x00,              //  Usage Maximum (255)                186
+# 0x81, 0x00,                    //  Input (Data,Arr,Abs)               189
+# 0xc0,                          // End Collection                      191
+# 0x06, 0x02, 0xff,              // Usage Page (Vendor Usage Page 0xff02) 192
+# 0x09, 0x02,                    // Usage (Vendor Usage 0x02)           195
+# 0xa1, 0x01,                    // Collection (Application)            197
+# 0x85, 0x06,                    //  Report ID (6)                      199
+# 0x09, 0x02,                    //  Usage (Vendor Usage 0x02)          201
+# 0x15, 0x00,                    //  Logical Minimum (0)                203
+# 0x26, 0xff, 0x00,              //  Logical Maximum (255)              205
+# 0x75, 0x08,                    //  Report Size (8)                    208
+# 0x95, 0x07,                    //  Report Count (7)                   210
+# 0xb1, 0x02,                    //  Feature (Data,Var,Abs)             212
+# 0xc0,                          // End Collection                      214
+# 
+R: 215 05 01 09 02 a1 01 09 01 a1 00 85 01 05 09 19 01 29 08 15 00 25 01 95 08 75 01 81 02 95 01 75 00 81 01 05 01 09 30 09 31 16 00 80 26 ff 7f 75 10 95 02 81 06 c0 a1 00 05 01 09 38 15 81 25 7f 75 08 95 01 81 06 c0 a1 00 05 0c 0a 38 02 95 01 75 08 15 81 25 7f 81 06 c0 c0 06 01 ff 09 00 a1 01 85 02 09 00 15 00 26 ff 00 75 08 95 07 81 02 c0 05 0c 09 01 a1 01 85 05 15 00 26 3c 02 19 00 2a 3c 02 75 10 95 01 81 00 c0 05 01 09 80 a1 01 85 03 19 81 29 83 15 00 25 01 95 03 75 01 81 02 95 01 75 05 81 01 c0 06 bc ff 09 88 a1 01 85 04 95 01 75 08 15 00 26 ff 00 19 00 2a ff 00 81 00 c0 06 02 ff 09 02 a1 01 85 06 09 02 15 00 26 ff 00 75 08 95 07 b1 02 c0
+N: ELECOM ELECOM TrackBall Mouse
+I: 3 056e 018d
+# ReportID: 1 / Button: 1  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000000.000000 8 01 01 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000000.211994 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  1  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000004.617604 8 01 02 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000004.849617 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  1  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000006.700133 8 01 04 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000006.937930 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  1  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000007.992204 8 01 08 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000008.169999 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  1  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000008.896109 8 01 10 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000009.108143 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  1  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000010.590173 8 01 20 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000010.774031 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  1  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000011.348107 8 01 40 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000011.521644 8 01 00 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  1 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000012.049896 8 01 80 00 00 00 00 00 00
+# ReportID: 1 / Button: 0  0  0  0  0  0  0  0 | # | X:      0 | Y:      0 
+#             | Wheel:    0 
+#             | AC Pan:    0 
+E: 000012.276067 8 01 00 00 00 00 00 00 00
+jerggs@fedora:~$ cat /dev/hidraw0 | hexdump -C
+00000000  01 01 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000010  01 02 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000020  01 04 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000030  01 08 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000040  01 10 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000050  01 20 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |. ..............|
+00000060  01 40 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |.@..............|
+00000070  01 80 00 00 00 00 00 00  01 00 00 00 00 00 00 00  |................|
+00000080  01 00 00 00 00 00 00 ff  01 00 00 00 00 00 00 ff  |................|
+00000090  01 00 00 00 00 00 00 01  01 00 00 00 00 00 00 01  |................|
+^C
